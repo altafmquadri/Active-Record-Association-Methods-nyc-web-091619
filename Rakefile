@@ -8,3 +8,8 @@ require 'sinatra/activerecord/rake'
 task :console do
   Pry.start
 end
+
+desc 'say sup'
+task :say_hi do
+  puts "Hello World!"
+end
